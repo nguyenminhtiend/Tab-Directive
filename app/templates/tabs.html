@@ -1,0 +1,11 @@
+<div class="tabbable">
+    <ul class="nav nav-tabs">
+        <li ng-repeat="tab in tabs" ng-class="{active:tab.selected}">
+            <a href="" ng-click="select($index)">{{tab.title}}<span class="glyphicon glyphicon-remove remove-tab" ng-click="removeTab($index)" aria-hidden="true"></span></a>
+        </li>
+        <li>
+            <a href="" ng-click="addTab()"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
+        </li>
+    </ul>
+    <div class="tab-content" ng-transclude></div>
+</div>

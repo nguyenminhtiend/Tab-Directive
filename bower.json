@@ -1,0 +1,9 @@
+{
+  "name": "Toto-Mean",
+  "version": "1.0.0",
+  "dependencies": {
+    "bootstrap": "latest",
+    "angular": "^1.5.3",
+    "angular-ui-router": "^0.2.18"
+  }
+}
